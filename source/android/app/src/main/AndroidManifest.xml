@@ -27,6 +27,8 @@
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
+                <!-- OUYA: makes the side-loaded APK appear in the OUYA "play" games menu -->
+                <category android:name="tv.ouya.intent.category.GAME" />
             </intent-filter>
         </activity>
         <activity

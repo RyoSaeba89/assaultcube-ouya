@@ -14,7 +14,7 @@ android {
         minSdkVersion "${platformVersion}"
         targetSdkVersion 30
         versionName '1.3.1'
-        versionCode 22    // OUYA: bump on every asset/config change so AssetExporter re-exports (PC menu, mastertype, menuzoom; v22 = mobile_gfx.cfg perf defaults)
+        versionCode 23    // OUYA: bump on every asset/config change so AssetExporter re-exports (PC menu, mastertype, menuzoom; v22 = mobile_gfx.cfg perf defaults; v23 = OUYA games-menu category + ouya_icon tile)
         externalNativeBuild {
             cmake {
                 arguments '-DANDROID_STL=c++_static'

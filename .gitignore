@@ -51,3 +51,5 @@ profile/*
 # OUYA port: exclude upstream desktop Windows binaries and sanitizer libs (not needed for the port)
 bin_win32/
 source/android/app/src/main/sanitize_jniLibs/
+# OUYA port: built release APKs are uploaded as GitHub release assets, not committed
+*.apk
